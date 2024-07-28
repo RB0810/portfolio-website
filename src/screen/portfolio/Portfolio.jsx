@@ -81,7 +81,7 @@ export const Portfolio = () => {
                       {
                         project.video && (
                           <li key={project.id + '-youtube'}>
-                            <a href={project.cover} target="_blank" rel="noopener noreferrer">
+                            <a href={project.video} target="_blank" rel="noopener noreferrer">
                               <FaYoutube size={20} />
                             </a>
                           </li>
@@ -89,7 +89,7 @@ export const Portfolio = () => {
                       }
                       {project.github && (
                         <li key={project.id + '-github'}>
-                          <a href={project.cover} target="_blank" rel="noopener noreferrer">
+                          <a href={project.github} target="_blank" rel="noopener noreferrer">
                             <IoLogoGithub size={20} />
                           </a>
                         </li>
