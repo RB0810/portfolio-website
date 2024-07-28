@@ -1168,7 +1168,7 @@ header img {
     left: 10px;
   }
   .timeline-item.left .arrow, .timeline-item.left .arrow {
-    border-right: 15px solid solid var(--tj-theme-primary);;
+    border-right: 15px solid var(--tj-theme-primary);;
     border-left: 0;
     left: -15px;
   }
@@ -1255,15 +1255,19 @@ header img {
 
 @media screen and (max-width: 768px) {
   .skills-widget .skill-inner {
-    padding: 10px;
+    padding: 8px;
   }
   .skills-widget .skill-item .icon-box img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
   .skills-widget .skill-item .number {
-    font-weight: 300;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  .skills-widget {
+    gap: 5px;
+    row-gap: 10px;
   }
 }
 /* --------------   End: Skills Section --------------*/
@@ -1349,6 +1353,7 @@ header img {
 
 .small-text{
   font-size: 10px;
+  color: var(--tj-theme-primary);
 }
 /* --------------   End: Testimonials Section --------------*/
 
