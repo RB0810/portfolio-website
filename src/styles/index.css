@@ -1099,7 +1099,8 @@ header img {
 .timeline-item .content {
   position: relative;
   padding: 20px;
-  background: var(--tj-theme-accent-2);
+  background: var(--tj-theme-secondary);
+  border: 1px solid var(--tj-theme-primary);
   border-radius: 6px;
   z-index: 1; /* Ensure it is above the line */
 }
@@ -1136,12 +1137,12 @@ header img {
 
 .timeline-item.left .arrow {
   right: -13px;
-  border-left: 15px solid var(--tj-theme-accent-2);
+  border-left: 15px solid var(--tj-theme-primary);
 }
 
 .timeline-item.right .arrow {
   left: -14px;
-  border-right: 15px solid var(--tj-theme-accent-2);
+  border-right: 15px solid var(--tj-theme-primary);
 }
 
 @media screen and (max-width: 768px){
@@ -1209,17 +1210,12 @@ header img {
 .skills-widget .skill-inner {
   border-radius: 25px;
   padding: 40px 15px 30px;
-  background: var(--tj-theme-accent-2);
-  border: 1px solid transparent;
+  background: var(--tj-theme-secondary);
+  border: 1px solid var(--tj-theme-primary);
   margin-bottom: 15px;
   -webkit-transition: 0.6s;
   -o-transition: 0.6s;
   transition: 0.6s;
-}
-
-.skills-widget .skill-item:hover .skill-inner {
-  background: var(--tj-theme-secondary);
-  border: 1px solid var(--tj-theme-primary);
 }
 
 .skills-widget .skill-item .icon-box {
@@ -1231,30 +1227,20 @@ header img {
 .skills-widget .skill-item .icon-box img {
   width: 70px;
   height: 70px;
-  filter: grayscale(90%);
-  -webkit-filter: grayscale(90%);
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.skills-widget .skill-item:hover .icon-box img {
   filter: grayscale(0);
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .skills-widget .skill-item .number {
-  color: var(--tj-grey-1);
+  color: var(--tj-theme-primary);
   font-weight: 800;
   font-size: 20px;
   line-height: 1;
-}
-
-.skills-widget .skill-item:hover .number {
-  color: var(--tj-theme-primary);
 }
 
 .skills-widget .skill-item p {
@@ -1362,7 +1348,7 @@ header img {
   border-radius: 15px;
   position: relative;
   z-index: 1;
-  height: 300px;
+  height: 200px;
 }
 .blog-section .blog-item .blog-thumb {
   overflow: hidden;
