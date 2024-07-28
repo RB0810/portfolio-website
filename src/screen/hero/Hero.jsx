@@ -57,9 +57,6 @@ export const Hero = () => {
                         delaySpeed={1000}
                     />
                   </h1>
-                  <div className="hero-image-box d-md-none text-center">
-                    <img src="./images/common/me.png" alt="" />
-                  </div>
                   <AnimatedSection>
                   <p className='lead'>A Full Stack Developer and Devops Engineer, with a keen interest in AI and Fintech.</p>
                   <div className="button-box flexG">
@@ -88,7 +85,7 @@ export const Hero = () => {
                       bounce: 0.5
                     }}
                 >
-                  <img src="../images/common/me.png" alt="logo" />
+                  <img src="./images/common/me.png" alt="me" />
                 </motion.div>            
               </div>
             </div>
