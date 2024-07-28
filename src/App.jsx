@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { Home, Layout } from "./utils/Router";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Loader from "./components/Loader";
+import { Home, Layout } from "./utils/Router";
 
 function App() {
   const [showLoader, setShowLoader] = useState(true);
@@ -19,18 +19,18 @@ function App() {
       {showLoader ? (
         <Loader />
       ) : (
-        <BrowserRouter>
+        <BrowserRouter basename="/portfolio-website">
           <Routes>
-              <Route
-                path="/"
-                element={
-                  <Layout>
-                    <Home />
-                  </Layout>
-                }
-              />
-            </Routes>
-          </BrowserRouter>
+            <Route
+              path="/"
+              element={
+                <Layout>
+                  <Home />
+                </Layout>
+              }
+            />
+          </Routes>
+        </BrowserRouter>
       )}
     </>
   );

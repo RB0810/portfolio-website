@@ -58,7 +58,7 @@ export const Hero = () => {
                     />
                   </h1>
                   <div className="hero-image-box d-md-none text-center">
-                    <img src="assets/img/hero/me.png" alt="" />
+                    <img src="./images/common/me.png" alt="" />
                   </div>
                   <AnimatedSection>
                   <p className='lead'>A Full Stack Developer and Devops Engineer, with a keen interest in AI and Fintech.</p>
