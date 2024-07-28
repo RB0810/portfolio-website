@@ -6,9 +6,7 @@ export const Footer = () => {
       <footer className="tj-footer-area">
         <div className="container text-center">
           <div className="logo-box">
-            <a href="/">
-              <img src="./images/common/logo.png" alt="logo" />
-            </a>
+            <img src="./images/common/logo.png" alt="logo" />
           </div>
           <div className="footer-menu">
             <nav>
