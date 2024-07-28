@@ -763,8 +763,8 @@ header img {
 }
 .hero-section .intro_text svg text {
   text-transform: uppercase;
-  stroke-width: 1.2;
-  stroke: var(--tj-theme-secondary);
+  stroke-width: 2;
+  stroke: var(--tj-theme-primary);
   fill: transparent;
   font-size: 240px;
   display: inline-block;
