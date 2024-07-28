@@ -79,7 +79,7 @@ export const projects = [
     id: 6,
     title: "OccupEye",
     type: ["app", "AI"],
-    desc: "A Full Stack Android Application that detects the occupancy levels of a room and relays the information to the user.Developed a Full Stack Android Application that detects the occupancy levels of a room and relays the information to the user.",
+    desc: "A Full Stack Android Application that detects the occupancy levels of a room using Computer Vision and relays the information to the user.",
     cover: "./images/portfolio/occupeye.png",
     github: "https://github.com/RB0810/OccupEye",
     video: "https://youtu.be/OqaWKkNVCiI",
