@@ -52,15 +52,15 @@
 
 @media (max-width: 450px) {
   :root {
-    --tj-fz-body: calc(16px - 5px);
-    --tj-fz-btn: calc(15px - 5px);
-    --tj-fz-p: calc(18px - 5px);
+    --tj-fz-body: calc(16px - 3px);
+    --tj-fz-btn: calc(15px - 2px);
+    --tj-fz-p: calc(18px - 3px);
     --tj-fz-h1: calc(65px - 5px);
     --tj-fz-h2: calc(45px - 5px);
     --tj-fz-h3: calc(30px - 5px);
     --tj-fz-h4: calc(24px - 5px);
     --tj-fz-h5: calc(22px - 5px);
-    --tj-fz-h6: calc(18px - 5px);
+    --tj-fz-h6: calc(18px - 3px);
     --tj-fz-sub-title: calc(36px - 5px);
   }
 }
