@@ -5,7 +5,7 @@ import FunfactSection from "../../components/Funfact";
 export const Blog = () => {
   return (
     <>
-      <section className="serivces-section">
+      <section className="blog-section black">
         <div className="container">
           <AnimatedSection>
           <div className="section-header text-center">

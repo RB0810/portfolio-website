@@ -1363,6 +1363,11 @@ header img {
   padding-bottom: 90px;
   background: var(--tj-theme-accent-1);
 }
+
+.blog-section.black {
+  background-color: var(--tj-black-2);
+}
+
 .blog-section .section-header {
   margin-left: auto;
   margin-right: auto;
