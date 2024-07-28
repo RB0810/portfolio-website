@@ -1255,7 +1255,7 @@ header img {
 
 @media screen and (max-width: 768px) {
   .skills-widget .skill-inner {
-    padding: 8px;
+    padding: 20px 8px;
   }
   .skills-widget .skill-item .icon-box img {
     width: 40px;
