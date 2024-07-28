@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       {showLoader ? (
-        <Loader />
+        <Home />
       ) : (
         <BrowserRouter basename="/portfolio-website">
           <Routes>
