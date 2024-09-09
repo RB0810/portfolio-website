@@ -37,7 +37,7 @@ export const Hero = () => {
         >
           <svg viewBox="0 0 100wh 100vh">
             <text x="50%" y="50%" textAnchor="middle">
-              HI
+              HI 
             </text>
           </svg>
         </motion.div>
