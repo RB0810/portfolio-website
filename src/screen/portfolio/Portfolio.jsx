@@ -39,13 +39,13 @@ export const Portfolio = () => {
                   className={activeFilter === "website" ? "active" : ""}
                   onClick={() => handleFilterClick("website")}
                 >
-                  Website
+                  Web 
                 </button>
                 <button
                   className={activeFilter === "app" ? "active" : ""}
                   onClick={() => handleFilterClick("app")}
                 >
-                  App
+                  Mobile
                 </button>
                 <button
                   className={activeFilter === "IoT" ? "active" : ""}
