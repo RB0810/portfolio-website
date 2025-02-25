@@ -154,8 +154,8 @@ export const projects = [
 export const experienceData = [
   {
     id: 1,
-    time: "Jul 2024 - Oct 2024",
-    title: "Product Owner (Part Time, Remote)",
+    time: "Jul 2024 - Dec 2024",
+    title: "Product (Tech) Lead (Part Time, Remote)",
     institute: "Horizon Labs",
     desc: "Scaled the team from 10 to 50 engineers sticking to AGILE and SCRUM methodologies and efficient task tracking with JIRA. Created the ERD and setup the SQL database to be used in our product website.",
     logo: "./images/experience/horizon.jpeg",
