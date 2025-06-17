@@ -32,15 +32,24 @@ export const hero = [
 export const projects = [
   {
     id: 1,
+    title: "Realtime Water Dashboard",
+    type: ["website"],
+    desc: "A real time dashboard that reads incoming sensor data through web sosckets and visualises the same in the form of time series plots and gives alerts for anomalies.",
+    cover: "./images/portfolio/dashboard.png",
+    github: "https://github.com/RB0810/water-dashboard",
+    video: "https://youtu.be/BHeXqWabSdI",
+  },
+  {
+    id: 2,
     title: "Capstone",
     type: ["website", "AI"],
     desc: "A website that streamlines the handling of out-of-gauge cargo by using document analyzers and a template engine to generate required documents and map them to actionable tasks.",
     cover: "./images/portfolio/cargo.png",
-    github: "",
-    video: "",
+    github: "https://github.com/Capstone-SUTD",
+    video: "https://youtu.be/zXPg2y5CjF0",
   },
   {
-    id: 2,
+    id: 3,
     title: "Feeding.io",
     type: ["website"],
     desc: "A website aimed at mitigating food waste, by helping merchants give away the excess food they have left at the end of the day for rallies, campaigns and/or at a cheaper rate to buyers.",
@@ -49,7 +58,7 @@ export const projects = [
     video: "https://youtu.be/oDY4ROEKpWY",
   },
   {
-    id: 3,
+    id: 4,
     title: "UnBias",
     type: ["website"],
     desc: "An interactive platform to educate people about unconscious bias and help them fight against it using courses, video lessons, quizzes and a discusiion forum to share, express, communicate ne's thought.",
@@ -58,7 +67,7 @@ export const projects = [
     video: "https://youtu.be/Q98zzebyHr0",
   },
   {
-    id: 4,
+    id: 5,
     title: "GiveCoin",
     type: ["website"],
     desc: "A decentralized application (DApp) for charity that promotes trust and transparency by utilizing milestone-based donation releases, ensuring funds are securely distributed to charities as specific goals are achieved.",
@@ -67,7 +76,7 @@ export const projects = [
     video: "https://youtu.be/aMy3NtHn50g",
   },
   {
-    id: 5,
+    id: 6,
     title: "Housing Portal",
     type: ["website"],
     desc: "A web portal for tenants to raise housing tickets and for landlords go effectively manage and assign these tickets to staff members making communication and management easier.",
@@ -76,7 +85,7 @@ export const projects = [
     video: "https://youtu.be/y3eBS4il44k",
   },
   {
-    id: 6,
+    id: 7,
     title: "BrewLogi",
     type: ["app"],
     desc: "A full-stack Android app for Heineken to manage large scale events, enabling users to order beer and organizers to track inventory, receive low stock alerts, and monitor product performance with charts and graphs.",
@@ -85,7 +94,7 @@ export const projects = [
     video: "https://youtu.be/hLti-yn6gL0",
   },
   {
-    id: 7,
+    id: 8,
     title: "Hethena",
     type: ["IoT"],
     desc: "A reading device for the partially visually impaired that uses OCR, translation, and TTS services to convert captured text into audio in a selected language, delivered via a mobile app connected to a Kubernetes-hosted backend.",
@@ -94,7 +103,7 @@ export const projects = [
     video: "https://youtube.com/shorts/ud9c4VQtt5M?feature=share",
   },
   {
-    id: 8,
+    id: 9,
     title: "BondGenie",
     type: ["website", "AI"],
     desc: "An AI-driven website for Relationship Managers to compare different investment options and simulate different results based on client portfolio so as to get the best fit for each client.",
@@ -104,7 +113,7 @@ export const projects = [
   },
   
   {
-    id: 9,
+    id: 10,
     title: "OccupEye",
     type: ["app", "AI"],
     desc: "A Full Stack Android Application that detects the occupancy levels of a room using Computer Vision and relays the information to the user.",
@@ -114,7 +123,7 @@ export const projects = [
   },
   
   {
-    id: 10,
+    id: 11,
     title: "Semantic Analysis",
     type: ["AI"],
     desc: "A machine learning model for sentiment analysis exploring the Hidden Markov Model and some of its variations like trigram HMM, checking which variation suits the best.",
@@ -123,7 +132,7 @@ export const projects = [
     video: "",
   },
   {
-    id: 11,
+    id: 12,
     title: "VisioAssist",
     type: ["IoT"],
     desc: "A pair of smart glasses for the visually impaired using OCR technology to convert real-time text to speech, and facilitating emergency contacts to access a live feed through a mobile app.",
@@ -132,7 +141,7 @@ export const projects = [
     video: "https://youtu.be/O5nDXE7XUxE",
   },
   {
-    id: 12,
+    id: 13,
     title: "BattleField",
     type: ["IoT"],
     desc: "A fun 2 player hardware game testing your intuition, wherein you need to guess the button pressed by the other player using some reverse psychology and his/her previous presses.",
@@ -141,7 +150,7 @@ export const projects = [
     video: "https://youtu.be/FcB7yy0EGB0",
   },
   {
-    id: 13,
+    id: 14,
     title: "Mastermind Game",
     type: ["app"],
     desc: "A color sequence guessing game using Python and the tkinter library, incorporating clues and hints for users to solve within a limited number of attempts, akin to a color-based version of Wordle.",
